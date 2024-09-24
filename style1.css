@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.hero{
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.37),
+        rgba(0, 0, 0, 0.37)
+    ),
+    url('firstone.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.main-page-info h1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+   margin-top: 200px;
+    font-size: 40px;
+    
+}
+
+.main-page-info span{
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(180, 4, 4);
+    
+}
+
+.main-page-info p{
+    font-size: 25px;
+    margin-bottom: 30px
+}
+
+.inp input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.inp button{
+    height: 30px;
+    width: 100px ;
+}
